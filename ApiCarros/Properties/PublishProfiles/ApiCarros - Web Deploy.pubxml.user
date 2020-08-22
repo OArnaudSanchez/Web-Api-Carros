@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Este archivo se usa en el proceso de publicación y empaquetado del proyecto web. Para personalizar el comportamiento de este proceso,
+edite el archivo MSBuild. Visite https://go.microsoft.com/fwlink/?LinkID=208121 para obtener más información. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAGUYXB/TzXk2YvXpa+EffjAAAAAACAAAAAAAQZgAAAAEAACAAAADk4iKU/rNH7exAH9cf1gDzZn15s3tIxasYDt5RMjdsEQAAAAAOgAAAAAIAACAAAABC2zhR499SddnI1x3HgeB7+a+wbshInekeZxKD+2h/v4AAAAByELShWfUUjJE/Vt5dcpdo573RH9j4VQ4R2IjFIMJWINzmpeUMvqFWsC/VK890gYowGb4sz/HO1bMbsZ6YDYZh4Yb8B4kaTkJ2k/25utMrWhvI0UHawHRY8rRywhUeb4z7ftowCLkyRh04mh3Zs/9wYfV6FB3kQOLQzkOW65ZJHUAAAAB/Eaj+bQ7nxnfKWARgIRnrqBds6Mx4Bc97Afb+qXRx9VmIP4kqeGEvw34+ZL65GGWyH18UuPAHiLOz4i3lGc/y</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="CarrosDB">
+      <Value>Data Source=tcp:apicarrosdbserver.database.windows.net,1433%3bInitial Catalog=CarrosApi_db%3bUser Id=ChecheUser%40apicarrosdbserver%3bPassword=Cheche991223</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>
